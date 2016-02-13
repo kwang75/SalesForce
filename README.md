@@ -3,8 +3,11 @@ This is the repo for SalesForce test
 
 To Execute: 
 1. Please download every source code in this repo to the same directory.
+
 2. Go to command line, cd to that directory. 
+
 3. Compile(I'm assuming you have Java7. If not, here is it: http://www.oracle.com/technetwork/java/javase/downloads/jre7-downloads-1880261.html
+
 4. Here is the command of compilation: javac SecretTest.java
 5. Test. Simply type javac SecretTest N; (N is the largest prime number of either x or y), and watch for the print message in command line.
 
