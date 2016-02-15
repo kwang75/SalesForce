@@ -21,6 +21,7 @@ This repo simply contains 4 things: Validator, Tester, Interface, Class implemen
 Valid inputs: Any number [2, Integer.MAX_VALUE / 2). The program will give you a warn message if your input is not within the range.
 
 Test cases are:
+
 A basic Naive secret() which returns the input number itself
 
 A few testcases which are addtive all the time, which is AbsSecret, NegPosSecret, PlusMinusSecret. They don't change input values.
@@ -30,6 +31,7 @@ They will mod the input values in order to change it. So if the mod value = 2000
 In all, for those 3 test cases, just make sure N is larger than the mod. ModeSixSecret should be larger than 6, ModHundredSecret should be larger than 100, ModLargeSecret should be larger than 10657.(I know in real cases, you only need to input N=60 to see that ModHundredSecret failed, but this is just a defensive testing advice)
 
 **This one is important
+
 Two testcases with changing specific values. For example, ChangeOneNonPrimeSecret only changes a non-prime, which is 100. Thus ChangeOneNonPrimeSecret(100) will not be 100.(I set it to 0) ChangeOnePrimeSecret will change a prime which is 10657.
 So for ChangeOneNonPrimeSecret, although we don't have non-prime numbers, but we could have two primes numbers added to 100. For example, 97 + 3. So when N is larger than 100(Again, defensive), ChangeOneNonPrimeSecret should not work. 
 For ChangeOnePrimeSecret, since 10657 is large, I suggest using N=20000 and similar numbers to test it. When N is large, this should be non-addtive.
