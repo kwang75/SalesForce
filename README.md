@@ -1,6 +1,8 @@
 # SalesForce Test
 This is the repo for SalesForce test
 
+Note:  The run command is Java SecretTest N not Javac!!! Sorry about any inconvenience. 
+
 
 To Execute: 
 1. Please download every source code in this repo to the same directory.
