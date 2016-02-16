@@ -11,7 +11,7 @@ To Execute:
 
 4. Here is the command of compilation: javac SecretTest.java
 
-5. Test. Simply type javac SecretTest N; (N is the largest prime number of either x or y), and watch for the print message in command line.
+5. Test. Simply type java SecretTest N; (N is the largest prime number of either x or y), and watch for the print message in command line.
 
 
 The logic:
